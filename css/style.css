@@ -5,6 +5,7 @@ body {
   font-family: 'Open Sans' sans-serif;
   font-family: 'Roboto', sans-serif;
   background: radial-gradient(white, grey);
+
 }
  /* Partie du haut imagge + texte(chapitre) + barre jaune*/
 .haut {
@@ -128,87 +129,4 @@ footer h2{
 
 
 
-@media screen and (max-device-width: 808px) {
-
-  .barre_jaune h2 {
-      font-size: 40px;
-      color: white;
-      top: 59%;
-      left: 21px;
-      position: absolute;
-      background-color: #F0AD2F;
-      -webkit-transform: rotate(-90deg);
-      padding: 6px;
-  }
-
-  .barre_jaune2 {
-    border-left: 12px solid #F0AD2F;
-    height: 655px;
-    position: absolute;
-    right: 611px;
-  }
-
-  .center_logo {
-    text-align: center;
-    z-index: 1;
-    position: relative;
-    float: right;
-    /* right: -126px; */
-    left: 64px;
-    top: 3px;
-    font-size: 10px;
-}
-
-.image_droite img {
-    width: 15%;
-    float: right;
-    left: 438px;
-    bottom: 40px;
-    position: relative;
-}
-
-.chapitre1 h2 {
-    left: 136px;
-    position: absolute;
-    top: 10px;
-    color: white;
-    font-size: 102px;
-}
-
-}
-
-@media screen and (max-device-width: 500px) {
-
-
-.chapitre2 p {
-    /* float: left; */
-    /* width: 100%; */
-    position: absolute;
-    color: white;
-    font-size: 38px;
-    /* top: 202px; */
-    top: 29%;
-    left: 19%;
-    }
-
-    .barre_jaune h2 {
-    font-size: 40px;
-    color: white;
-    top: 36%;
-    left: 21px;
-    position: absolute;
-    background-color: #F0AD2F;
-    -webkit-transform: rotate(-90deg);
-    padding: 6px;
-}
-
-.image_gauche img {
-    width: 164px;
-    left: 85px;
-    /* float: left; */
-    position: absolute;
-    top: 126%;
-    /* bottom: 91px; */
-}
-
-}
+ 
