@@ -168,7 +168,7 @@ footer h2{
 }
 
 .chapitre1 h2 {
-    left: 136px;
+    left: 28px;
     position: absolute;
     top: 10px;
     color: white;
@@ -179,7 +179,13 @@ footer h2{
 
 @media screen and (max-device-width: 500px) {
 
-
+  .chapitre1 h2 {
+      left: 19px;
+      position: absolute;
+      top: 10px;
+      color: white;
+      font-size: 102px;
+  }
 .chapitre2 p {
     /* float: left; */
     /* width: 100%; */
