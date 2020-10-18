@@ -11,6 +11,7 @@ body {
   width: 100%;
 }
 
+/*image fallout*/
 .haut img {
   /* padding: 46px; */
   /* left: 45px; */
@@ -22,6 +23,8 @@ body {
   min-width: -webkit-fill-available;
 }
 
+/*Titre 1*/
+
 .chapitre1 h2{
   left: 154px;
   position: absolute;
@@ -29,6 +32,8 @@ body {
   color: white;
   font-size: 102px;
 }
+
+
 .chapitre2 p{
   /* float: left; */
   /* width: 100%; */
@@ -39,6 +44,8 @@ body {
   top: 49%;
   left: 19%;
 }
+
+/*barre jaune*/
 .barre_jaune h2{
   font-size: 40px;
   color: white;
@@ -73,7 +80,7 @@ body {
   width: 56%;
 }
 
-/*footer et center_logo*/
+/*footer et paragraphe dans le logo*/
 .center_logo {
   text-align: center;
   z-index: 1;
@@ -103,7 +110,7 @@ body {
   /* bottom: 91px; */
 }
 
-/*image de droite*/
+/*image de Droite*/
 .image_droite img {
   width: 11%;
   float: right;
@@ -117,6 +124,8 @@ footer {
   background: #383737;
   height: 250px;
 }
+
+/*Titre*/
 footer h2{
   font-size: -webkit-xxx-large;
   text-align: center;
@@ -127,6 +136,7 @@ footer h2{
 }
 
 
+/*Responsive 808px*/
 
 @media screen and (max-device-width: 808px) {
 
@@ -176,6 +186,8 @@ footer h2{
 }
 
 }
+
+/*Responsive 500px*/
 
 @media screen and (max-device-width: 500px) {
 
