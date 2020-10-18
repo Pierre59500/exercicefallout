@@ -6,7 +6,7 @@ body {
   font-family: 'Roboto', sans-serif;
   background: radial-gradient(white, grey);
 }
- /* Partie du haut imagge + texte(chapitre) + barre jaune*/
+/* Partie du haut imagge + texte(chapitre) + barre jaune*/
 .haut {
   width: 100%;
 }
@@ -141,14 +141,14 @@ footer h2{
 @media screen and (max-device-width: 808px) {
 
   .barre_jaune h2 {
-      font-size: 40px;
-      color: white;
-      top: 59%;
-      left: 21px;
-      position: absolute;
-      background-color: #F0AD2F;
-      -webkit-transform: rotate(-90deg);
-      padding: 6px;
+    font-size: 40px;
+    color: white;
+    top: 59%;
+    left: 21px;
+    position: absolute;
+    background-color: #F0AD2F;
+    -webkit-transform: rotate(-90deg);
+    padding: 6px;
   }
 
   .barre_jaune2 {
@@ -167,23 +167,23 @@ footer h2{
     left: 64px;
     top: 3px;
     font-size: 10px;
-}
+  }
 
-.image_droite img {
+  .image_droite img {
     width: 15%;
     float: right;
     left: 438px;
     bottom: 40px;
     position: relative;
-}
+  }
 
-.chapitre1 h2 {
+  .chapitre1 h2 {
     left: 28px;
     position: absolute;
     top: 10px;
     color: white;
     font-size: 102px;
-}
+  }
 
 }
 
@@ -192,13 +192,14 @@ footer h2{
 @media screen and (max-device-width: 500px) {
 
   .chapitre1 h2 {
-      left: 19px;
-      position: absolute;
-      top: 10px;
-      color: white;
-      font-size: 102px;
+    left: 19px;
+    position: absolute;
+    top: 10px;
+    color: white;
+    font-size: 102px;
   }
-.chapitre2 p {
+
+  .chapitre2 p {
     /* float: left; */
     /* width: 100%; */
     position: absolute;
@@ -207,9 +208,9 @@ footer h2{
     /* top: 202px; */
     top: 29%;
     left: 19%;
-    }
+  }
 
-    .barre_jaune h2 {
+  .barre_jaune h2 {
     font-size: 40px;
     color: white;
     top: 36%;
@@ -218,15 +219,15 @@ footer h2{
     background-color: #F0AD2F;
     -webkit-transform: rotate(-90deg);
     padding: 6px;
-}
+  }
 
-.image_gauche img {
+  .image_gauche img {
     width: 164px;
     left: 85px;
     /* float: left; */
     position: absolute;
     top: 126%;
     /* bottom: 91px; */
-}
+  }
 
 }
