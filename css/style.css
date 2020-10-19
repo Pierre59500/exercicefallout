@@ -6,10 +6,12 @@ body {
   font-family: 'Roboto', sans-serif;
   background: radial-gradient(white, grey);
 
+
 }
  /* Partie du haut imagge + texte(chapitre) + barre jaune*/
 .haut {
   width: 100%;
+  flex-basis: 100%;
 }
 
 .haut img {
@@ -29,6 +31,7 @@ body {
   top: 45px;
   color: white;
   font-size: 102px;
+  flex-basis: 25%;
 }
 .chapitre2 p{
   /* float: left; */
@@ -39,6 +42,7 @@ body {
   /* top: 202px; */
   top: 49%;
   left: 19%;
+  display: flex;
 }
 .barre_jaune h2{
   font-size: 40px;
@@ -111,12 +115,14 @@ body {
   left: 505px;
   bottom: 41px;
   position: relative;
+
 }
 
 
 footer {
   background: #383737;
   height: 250px;
+  flex-basis: 100%;
 }
 footer h2{
   font-size: -webkit-xxx-large;
@@ -126,7 +132,3 @@ footer h2{
   position: absolute;
   left: 94px;
 }
-
-
-
- 
